@@ -1,0 +1,172 @@
+.hero-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle at center, #f4f0ec 0%, #d8d0c5 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 60px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.hero-header .brand-logo {
+  font-family: 'Cinzel', serif;
+  font-size: 26px;
+  letter-spacing: 6px;
+  color: #2b2b2b;
+  margin: 0;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex: 1;
+  width: 100%;
+}
+
+/* Info Card Box */
+.info-card {
+  background: rgba(30, 30, 30, 0.88);
+  backdrop-filter: blur(12px);
+  color: #fff;
+  padding: 35px 30px;
+  border-radius: 16px;
+  width: 320px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  z-index: 60;
+  animation: cardFadeIn 0.4s ease-out;
+  position: relative;
+}
+
+.slide-number {
+  font-size: 11px;
+  letter-spacing: 2px;
+  opacity: 0.7;
+  display: block;
+  text-transform: uppercase;
+}
+
+.slide-title {
+  font-family: 'Cinzel', serif;
+  font-size: 32px;
+  margin: 12px 0;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.slide-desc {
+  font-size: 13px;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+/* Character Stage & Cyclic 2-Left / Center / 2-Right Layout */
+.character-stage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.character-item {
+  position: absolute;
+  transition: all 0.65s cubic-bezier(0.25, 1, 0.5, 1);
+  cursor: pointer;
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.character-item img {
+  height: 380px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 15px 25px rgba(0,0,0,0.15));
+}
+
+/* Center Active Image */
+.character-item.offset-0 {
+  transform: translateX(80px) translateY(-15px) scale(1.15);
+  opacity: 1;
+  z-index: 50;
+  filter: drop-shadow(0 25px 35px rgba(0,0,0,0.25));
+}
+
+/* First Left Image */
+.character-item.offset--1 {
+  transform: translateX(-70px) translateY(10px) scale(0.82);
+  opacity: 0.85;
+  z-index: 40;
+}
+
+/* Far Left Image */
+.character-item.offset--2 {
+  transform: translateX(-220px) translateY(35px) scale(0.62);
+  opacity: 0.55;
+  z-index: 30;
+}
+
+/* First Right Image */
+.character-item.offset-1 {
+  transform: translateX(230px) translateY(10px) scale(0.82);
+  opacity: 0.85;
+  z-index: 40;
+}
+
+/* Far Right Image */
+.character-item.offset-2 {
+  transform: translateX(380px) translateY(35px) scale(0.62);
+  opacity: 0.55;
+  z-index: 30;
+}
+
+/* Bottom Category Controls */
+.category-nav {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  z-index: 60;
+  padding-bottom: 10px;
+}
+
+.cat-btn {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 6px;
+  transition: color 0.3s;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.cat-btn.active {
+  color: #111;
+  font-weight: 600;
+}
+
+.cat-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #111;
+}
+
+@keyframes cardFadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
