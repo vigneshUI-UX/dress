@@ -7,6 +7,8 @@ import AboutPage from './components/AboutPage';
 import ServicesPage from './components/ServicesPage';
 import ProductPage from './components/ProductPage';
 import ContactPage from './components/ContactPage';
+import Footer from './components/Footer'; // <-- Import Footer
+
 import './App.css';
 
 export default function App() {
@@ -27,7 +29,7 @@ export default function App() {
     <div className="app-container">
       {/* Sticky Top Glass Navigation Bar */}
       <nav className="global-nav">
-        <span className="nav-logo" onClick={() => scrollToSection(heroRef)}>LUMIÈRE</span>
+        <span className="nav-logo" onClick={() => scrollToSection(heroRef)}>  VICKY</span>
         <div className="nav-links">
           <button onClick={() => scrollToSection(heroRef)}>Hero</button>
           <button onClick={() => scrollToSection(verticalRef)}>Collections</button>
@@ -71,6 +73,9 @@ export default function App() {
       <section ref={contactRef} className="app-section">
         <ContactPage />
       </section>
+
+      {/* Sleek Bottom Footer Component */}
+      <Footer />
     </div>
   );
 }

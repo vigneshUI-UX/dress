@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import './GallerySection.css';
 
 const galleryItems = [
-  { id: 1, name: 'PHANTOM EDITION', price: '₹20,749', image: '/assets/dress5.png', category: 'LUXURY COUTURE' },
-  { id: 2, name: 'NOVA CRYSTAL', price: '₹14,849', image: '/assets/dress6.png', category: 'EVENING WEAR' },
-  { id: 3, name: 'ZENITH DARK', price: '₹21,549', image: '/assets/dress7.png', category: 'LUXURY SILK' },
-  { id: 4, name: 'LUMINA GOLD', price: '₹24,949', image: '/assets/dress8.png', category: 'BRIDAL COUTURE' },
-  { id: 5, name: 'STELLAR ULTRA', price: '₹26,549', image: '/assets/dress9.png', category: 'LIMITED DROP' },
-  { id: 6, name: 'VELVET AURA', price: '₹18,949', image: '/assets/dress10.png', category: 'VELVET COLLECTION' },
-  { id: 7, name: 'ROYAL DRAPE', price: '₹29,249', image: '/assets/dress11.png', category: 'SIGNATURE PIECE' }
+  { id: 1, name: 'PHANTOM EDITION', price: '₹20,749', image: 'assets/dress5.png', category: 'LUXURY COUTURE' },
+  { id: 2, name: 'NOVA CRYSTAL', price: '₹14,849', image: 'assets/dress6.png', category: 'EVENING WEAR' },
+  { id: 3, name: 'ZENITH DARK', price: '₹21,549', image: 'assets/dress7.png', category: 'LUXURY SILK' },
+  { id: 4, name: 'LUMINA GOLD', price: '₹24,949', image: 'assets/dress8.png', category: 'BRIDAL COUTURE' },
+  { id: 5, name: 'STELLAR ULTRA', price: '₹26,549', image: 'assets/dress9.png', category: 'LIMITED DROP' },
+  { id: 6, name: 'VELVET AURA', price: '₹18,949', image: 'assets/dress10.png', category: 'VELVET COLLECTION' },
+  { id: 7, name: 'ROYAL DRAPE', price: '₹29,249', image: 'assets/dress11.png', category: 'SIGNATURE PIECE' }
 ];
 
 export default function GallerySection() {

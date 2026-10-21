@@ -41,7 +41,7 @@ export default function ProductPage() {
         {/* Left Side: Interactive Dress/Shirt Image */}
         <div className="product-image-section">
           <motion.img 
-            src="/assets/dress1.png" 
+            src="assets/dress1.png" 
             alt="LUMIÈRE Signature Gown" 
             className="showcase-dress-img"
             whileHover={{ scale: 1.05, rotate: 1 }}

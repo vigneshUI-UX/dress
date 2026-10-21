@@ -12,9 +12,9 @@ const shirtProducts = [
     sizes: ['38', '40', '42', '44', '46'],
     // 3 rotation angles/views for this shirt
     views: [
-      '/assets/shirt-white-front.png',
-      '/assets/shirt-white-side.png',
-      '/assets/shirt-white-model.png'
+      'assets/shirt-white-front.png',
+      'assets/shirt-white-side.png',
+      'assets/shirt-white-model.png'
     ]
   },
   {
@@ -26,9 +26,9 @@ const shirtProducts = [
     colorHex: '#111827',
     sizes: ['38', '40', '42', '44', '46'],
     views: [
-      '/assets/shirt-black-front.png',
-      '/assets/shirt-black-side.png',
-      '/assets/shirt-black-model.png'
+      'assets/shirt-black-front.png',
+      'assets/shirt-black-side.png',
+      'assets/shirt-black-model.png'
     ]
   },
   {
@@ -40,9 +40,9 @@ const shirtProducts = [
     colorHex: '#2563eb',
     sizes: ['38', '40', '42', '44', '46'],
     views: [
-      '/assets/shirt-blue-front.png',
-      '/assets/shirt-blue-side.png',
-      '/assets/shirt-blue-model.png'
+      'assets/shirt-blue-front.png',
+      'assets/shirt-blue-side.png',
+      'assets/shirt-blue-model.png'
     ]
   }
 ];

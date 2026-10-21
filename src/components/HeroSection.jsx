@@ -7,35 +7,35 @@ const slides = [
     category: 'WINTER',
     title: 'Cozy Knitwear',
     desc: 'Soft, warm, and endlessly huggable. Comfort with character.',
-    image: '/assets/char-winter.png',
+    image: 'assets/char-winter.png',
   },
   {
     id: '02',
     category: 'BRIDAL',
     title: 'The White Vow',
     desc: 'A cascade of lace and light. The moment you’ve always imagined.',
-    image: '/assets/char-bridal.png',
+    image: 'assets/char-bridal.png',
   },
   {
     id: '03',
     category: 'SPORT',
     title: 'Active Edit',
     desc: 'Performance pieces that move the way you move. No limits.',
-    image: '/assets/char-sport.png',
+    image: 'assets/char-sport.png',
   },
   {
     id: '04',
     category: 'EVENING',
     title: 'Evening Gown',
     desc: 'Flowing elegance that turns every entrance into a moment.',
-    image: '/assets/char-evening.png',
+    image: 'assets/char-evening.png',
   },
   {
     id: '05',
     category: 'STREET',
     title: 'Street Layers',
     desc: 'Edgy denim and modern cuts for the urban explorer.',
-    image: '/assets/char-street.png',
+    image: 'assets/char-street.png',
   },
 ];
 
@@ -57,7 +57,7 @@ export default function HeroSection() {
     <div className="hero-container">
       {/* Top Header Logo */}
       <header className="hero-header">
-        <h1 className="brand-logo">LUMIÈRE</h1>
+        <h1 className="brand-logo"></h1>
       </header>
 
       {/* Main Content Stage */}

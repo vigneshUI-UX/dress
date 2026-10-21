@@ -9,8 +9,8 @@ const dressItems = [
     color: '#d97706',
     description: 'A masterpiece of flowing silk chiffon. Designed for high-end galas and red-carpet entrances that leave an unforgettable impression.',
     specs: { material: 'Pure Silk Chiffon', tailoring: 'Hand-Pleated', closure: 'Invisible Back Zip', length: 'Floor-Length' },
-    image: '/assets/dress1.png',
-    bgImage: '/assets/dress1.png' // <-- Put your background image file here for card 1
+    image: 'assets/dress1.png',
+    bgImage: 'assets/dress1.png' // <-- Put your background image file here for card 1
   },
   {
     id: '02',
@@ -19,8 +19,8 @@ const dressItems = [
     color: '#dc2626',
     description: 'Classic Parisian elegance meets modern sophistication. Crafted from rich black and ruby velvet with signature gold-threaded trim.',
     specs: { material: 'Italian Lyon Velvet', tailoring: 'Structured Fit', closure: 'Pearl Button Cuff', length: 'Midi' },
-    image: '/assets/dress2.png',
-    bgImage: '/assets/dress2.png' // <-- Put your background image file here for card 2
+    image: 'assets/dress2.png',
+    bgImage: 'assets/dress2.png' // <-- Put your background image file here for card 2
   },
   {
     id: '03',
@@ -29,8 +29,8 @@ const dressItems = [
     color: '#7c3aed',
     description: 'Liquid satin that drapes effortlessly over the silhouette. Features delicate lace inserts and sensual cowl neckline detailing.',
     specs: { material: 'Liquid Silk Satin', tailoring: 'Bias Cut', closure: 'Pull-on Style', length: 'Maxi' },
-    image: '/assets/dress3.png',
-    bgImage: '/assets/dress3.png' // <-- Put your background image file here for card 3
+    image: 'assets/dress3.png',
+    bgImage: 'assets/dress3.png' // <-- Put your background image file here for card 3
   },
   {
     id: '04',
@@ -39,8 +39,8 @@ const dressItems = [
     color: '#2563eb',
     description: 'An ethereal creation of sheer illusion tulle embroidered with intricate botanical motifs and metallic threading.',
     specs: { material: 'French Tulle & Silk', tailoring: 'Hand-Embroidered', closure: 'Corset Lace-up', length: 'Ballgown' },
-    image: '/assets/dress4.png',
-    bgImage: '/assets/dress4.png' // <-- Put your background image file here for card 4
+    image: 'assets/dress4.png',
+    bgImage: 'assets/dress4.png' // <-- Put your background image file here for card 4
   },
   {
     id: '05',
@@ -49,8 +49,8 @@ const dressItems = [
     color: '#16a34a',
     description: 'Dazzling emerald sequins catch the light from every angle. Tailored with a dramatic high slit and open back construction.',
     specs: { material: 'Micro-Sequin Mesh', tailoring: 'Body-Hugging', closure: 'Side Hook & Eye', length: 'Evening' },
-    image: '/assets/dress1.png',
-    bgImage: '/assets/dress1.png' // <-- Put your background image file here for card 5
+    image: 'assets/dress1.png',
+    bgImage: 'assets/dress1.png' // <-- Put your background image file here for card 5
   }
 ];
 
